@@ -1,0 +1,8 @@
+{
+  "isSuccess": false,
+  "error": {
+    "code": "Product.NotFound",
+    "message": "Product with ID 20 was not found.",
+    "errorType": 404
+  }
+}

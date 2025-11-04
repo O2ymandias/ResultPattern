@@ -1,0 +1,11 @@
+{
+  "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+  "title": "One or more validation errors occurred.",
+  "status": 400,
+  "errors": {
+    "Price": [
+      "The field Price must be between 1 and 2147483647."
+    ]
+  },
+  "traceId": "00-9d986d465fa7246167d274c833c9e4ff-f35f62085db1559e-00"
+}

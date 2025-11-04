@@ -1,0 +1,710 @@
+﻿POST http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 155
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Logitech Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 1,
+  "unitsSold": 350
+}
+
+<> 2025-11-03T094702.200.json
+
+###
+
+POST http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 1,
+  "unitsSold": 350
+}
+
+<> 2025-11-03T094631.400.json
+
+###
+
+GET http://localhost:5095/api/Products/22
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-03T094603.200.json
+
+###
+
+GET http://localhost:5095/api/Products/21
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-03T094553.200.json
+
+###
+
+POST http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 1,
+  "unitsSold": 350
+}
+
+<> 2025-11-03T094523.400.json
+
+###
+
+POST http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 1,
+  "unitsSold": 350
+}
+
+<> 2025-11-03T094516.400.json
+
+###
+
+POST http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 1,
+  "unitsSold": 350
+}
+
+<> 2025-11-03T094337.500.txt
+
+###
+
+GET http://localhost:5095/api/Products/1000
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-03T094302.200.json
+
+###
+
+GET http://localhost:5095/api/Products?pageIndex=1&pageSize=5
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-01T143829.200.json
+
+###
+
+GET http://localhost:5095/api/Products?pageIndex=1&pageSize=5
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-01T143811.200.json
+
+###
+
+GET http://localhost:5095/api/Products?pageIndex=1&pageSize=5
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-01T143728.200.json
+
+###
+
+POST http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 1,
+  "unitsSold": 350
+}
+
+<> 2025-11-01T134118.400.json
+
+###
+
+POST http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 1,
+  "unitsSold": 350
+}
+
+<> 2025-11-01T133654.400.json
+
+###
+
+GET http://localhost:5095/api/Products?pageIndex=1&pageSize=5
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-01T133023.200.json
+
+###
+
+GET http://localhost:5095/api/Products?pageIndex=1&pageSize=5
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-01T132611.200.json
+
+###
+
+GET http://localhost:5095/api/Products?pageIndex=1&pageSize=5
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-01T132525.200.json
+
+###
+
+GET http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 37
+
+{
+  "pageIndex": 1,
+  "pageSize": 5
+}
+
+<> 2025-11-01T132120.200.json
+
+###
+
+GET http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 37
+
+{
+  "pageIndex": 1,
+  "pageSize": 5
+}
+
+<> 2025-11-01T132030.200.json
+
+###
+
+GET http://localhost:5095/api/Products
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-01T131824.200.json
+
+###
+
+PUT http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 10,
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
+
+<> 2025-10-31T203500.400.json
+
+###
+
+PUT http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 10,
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
+
+<> 2025-10-31T203413.400.json
+
+###
+
+PUT http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 10,
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
+
+<> 2025-10-31T203355.400.json
+
+###
+
+PUT http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 10,
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
+
+<> 2025-10-31T203350.200.json
+
+###
+
+PUT http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 21,
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
+
+<> 2025-10-31T203343.400.json
+
+###
+
+PUT http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 20,
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
+
+<> 2025-10-31T203306.400.json
+
+###
+
+PUT http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 20,
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
+
+<> 2025-10-31T203301.200.json
+
+###
+
+POST http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 147
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": -1,
+  "unitsSold": 350
+}
+
+<> 2025-10-31T203214.400.json
+
+###
+
+POST http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 19.99,
+  "unitsSold": 350
+}
+
+<> 2025-10-31T203138.200.json
+
+###
+
+POST http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 19.99,
+  "unitsSold": 350
+}
+
+<> 2025-10-31T203122.200.json
+
+###
+
+GET http://localhost:5095/api/Products
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-10-31T203116.200.json
+
+###
+
+PUT http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 21,
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
+
+<> 2025-10-31T202841.400.json
+
+###
+
+PUT http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 21,
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
+
+<> 2025-10-31T185856.400.json
+
+###
+
+PUT http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 21,
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
+
+<> 2025-10-31T185813.400.json
+
+###
+
+PUT http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 21,
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
+
+<> 2025-10-31T185630.200.json
+
+###
+
+PUT http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 158
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 1000,
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
+
+<> 2025-10-31T185609.400.json
+
+###
+
+PUT http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 144
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
+
+<> 2025-10-31T185523.400.json
+
+###
+
+POST http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 19.99,
+  "unitsSold": 350
+}
+
+<> 2025-10-31T184051.200.json
+
+###
+
+POST http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 19.99,
+  "unitsSold": 350
+}
+
+<> 2025-10-31T184034.400.json
+
+###
+
+POST http://localhost:5095/api/Products
+Content-Type: application/json
+Accept: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 19.99,
+  "unitsSold": 350
+}
+
+<> 2025-10-31T183856.400.json
+
+###
+
+GET http://localhost:5095/api/Products/1000
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-10-31T181222.200.json
+
+###
+
+GET http://localhost:5095/api/Products/1000
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-10-31T180130.200.json
+
+###
+
+GET http://localhost:5095/api/Products/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-10-31T180104.200.json
+
+###
+
+GET http://localhost:5095/api/Products/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-10-31T180101.200.json
+
+###
+
+GET http://localhost:5095/api/Products
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-10-31T180054.200.json
+
+###
+
+GET http://localhost:5095/api/Products
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-10-31T180049.200.json
+
+###
+
+GET http://localhost:5095/api/Products
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-10-31T163133.200.json
+
+###
+
+GET http://localhost:5095/api/Products
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-10-31T163110.200.json
+
+###
+
+GET http://localhost:5095/api/Products/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-10-31T163048.200.json
+
+###
+
+GET http://localhost:5095/api/Products/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-10-31T163047.200.json
+
+###
+
+GET http://localhost:5095/api/Products/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-10-31T163046.200.json
+
+###
+

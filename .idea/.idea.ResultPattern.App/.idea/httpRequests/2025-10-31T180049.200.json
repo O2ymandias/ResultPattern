@@ -1,0 +1,126 @@
+{
+  "isSuccess": true,
+  "value": [
+    {
+      "name": "Wireless Mouse",
+      "description": "A smooth and responsive wireless mouse with ergonomic design.",
+      "price": 19.99,
+      "unitsSold": 350
+    },
+    {
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with tactile switches and durable build.",
+      "price": 59.99,
+      "unitsSold": 200
+    },
+    {
+      "name": "Noise Cancelling Headphones",
+      "description": "High-quality over-ear headphones with active noise cancellation.",
+      "price": 129.99,
+      "unitsSold": 120
+    },
+    {
+      "name": "4K Monitor",
+      "description": "27-inch 4K UHD monitor with vivid colors and ultra-thin bezels.",
+      "price": 349.99,
+      "unitsSold": 80
+    },
+    {
+      "name": "Portable SSD 1TB",
+      "description": "Fast and reliable external solid-state drive for data storage.",
+      "price": 99.99,
+      "unitsSold": 250
+    },
+    {
+      "name": "Smartphone Stand",
+      "description": "Adjustable aluminum stand for phones and tablets.",
+      "price": 14.99,
+      "unitsSold": 500
+    },
+    {
+      "name": "Webcam 1080p",
+      "description": "Full HD webcam with built-in microphone and wide-angle lens.",
+      "price": 39.99,
+      "unitsSold": 180
+    },
+    {
+      "name": "Bluetooth Speaker",
+      "description": "Compact portable speaker with deep bass and 10-hour battery life.",
+      "price": 45.99,
+      "unitsSold": 270
+    },
+    {
+      "name": "Gaming Chair",
+      "description": "Ergonomic gaming chair with adjustable armrests and lumbar support.",
+      "price": 189.99,
+      "unitsSold": 60
+    },
+    {
+      "name": "USB-C Hub",
+      "description": "Multi-port USB-C hub with HDMI, USB 3.0, and SD card reader.",
+      "price": 29.99,
+      "unitsSold": 320
+    },
+    {
+      "name": "Wireless Charger",
+      "description": "Fast wireless charging pad compatible with multiple devices.",
+      "price": 24.99,
+      "unitsSold": 410
+    },
+    {
+      "name": "Laptop Cooling Pad",
+      "description": "Cooling stand with adjustable fan speed and LED lights.",
+      "price": 34.99,
+      "unitsSold": 150
+    },
+    {
+      "name": "External Hard Drive 2TB",
+      "description": "High-capacity portable HDD for backup and file storage.",
+      "price": 89.99,
+      "unitsSold": 230
+    },
+    {
+      "name": "Smartwatch",
+      "description": "Fitness tracking smartwatch with heart-rate monitor and GPS.",
+      "price": 149.99,
+      "unitsSold": 190
+    },
+    {
+      "name": "LED Desk Lamp",
+      "description": "Dimmable LED desk lamp with adjustable arm and touch control.",
+      "price": 22.99,
+      "unitsSold": 340
+    },
+    {
+      "name": "Ergonomic Mouse Pad",
+      "description": "Memory foam wrist rest pad for comfortable mouse use.",
+      "price": 9.99,
+      "unitsSold": 600
+    },
+    {
+      "name": "USB Flash Drive 128GB",
+      "description": "Compact and durable USB 3.0 flash drive with fast transfer speed.",
+      "price": 17.99,
+      "unitsSold": 420
+    },
+    {
+      "name": "Graphic Tablet",
+      "description": "Drawing tablet with pressure-sensitive pen for digital art.",
+      "price": 69.99,
+      "unitsSold": 140
+    },
+    {
+      "name": "Webcam Cover",
+      "description": "Ultra-thin sliding cover for laptop and phone cameras.",
+      "price": 6.99,
+      "unitsSold": 700
+    },
+    {
+      "name": "Noise-Isolating Earbuds",
+      "description": "In-ear wired earbuds with deep bass and clear sound.",
+      "price": 19.49,
+      "unitsSold": 360
+    }
+  ],
+  "errorMessage": ""
+}

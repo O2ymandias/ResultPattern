@@ -1,0 +1,11 @@
+{
+  "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+  "title": "One or more validation errors occurred.",
+  "status": 400,
+  "errors": {
+    "Id": [
+      "The field Id must be between 1 and 2147483647."
+    ]
+  },
+  "traceId": "00-b966e235ed11b7a0e43f1e5119f2d7ce-10f683ead2cc5647-00"
+}

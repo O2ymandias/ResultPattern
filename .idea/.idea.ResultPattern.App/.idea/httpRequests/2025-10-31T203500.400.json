@@ -1,0 +1,8 @@
+{
+  "isSuccess": false,
+  "error": {
+    "code": "Product.NoChangesDetected",
+    "message": "No changes were detected. Please modify at least one property before updating.",
+    "errorType": 400
+  }
+}

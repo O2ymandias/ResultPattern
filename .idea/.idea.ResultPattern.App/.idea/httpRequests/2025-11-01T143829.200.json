@@ -1,0 +1,40 @@
+{
+  "page": 1,
+  "pagesSize": 5,
+  "totalCount": 23,
+  "totalPages": 5,
+  "hasPrevious": false,
+  "hasNext": true,
+  "items": [
+    {
+      "name": "Wireless Mouse",
+      "description": "A smooth and responsive wireless mouse with ergonomic design.",
+      "price": 19.99,
+      "unitsSold": 350
+    },
+    {
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with tactile switches and durable build.",
+      "price": 59.99,
+      "unitsSold": 200
+    },
+    {
+      "name": "Noise Cancelling Headphones",
+      "description": "High-quality over-ear headphones with active noise cancellation.",
+      "price": 129.99,
+      "unitsSold": 120
+    },
+    {
+      "name": "4K Monitor",
+      "description": "27-inch 4K UHD monitor with vivid colors and ultra-thin bezels.",
+      "price": 349.99,
+      "unitsSold": 80
+    },
+    {
+      "name": "Portable SSD 1TB",
+      "description": "Fast and reliable external solid-state drive for data storage.",
+      "price": 99.99,
+      "unitsSold": 250
+    }
+  ]
+}

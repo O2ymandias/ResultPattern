@@ -1,0 +1,11 @@
+{
+  "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+  "title": "One or more validation errors occurred.",
+  "status": 400,
+  "errors": {
+    "Description": [
+      "The field Description must be a string or array type with a maximum length of '50'."
+    ]
+  },
+  "traceId": "00-fcfb5e5deb2998b23b82e4b962664a58-5581a56e851367dd-00"
+}

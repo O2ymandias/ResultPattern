@@ -1,0 +1,8 @@
+{
+  "isSuccess": false,
+  "error": {
+    "code": "Product.AlreadyExists",
+    "message": "A product named 'Wireless Mouse' already exists.",
+    "errorType": 409
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "value": [
+    {
+      "name": "Wireless Mouse",
+      "description": "A smooth and responsive wireless mouse with ergonomic design.",
+      "price": 19.99,
+      "unitsSold": 350
+    },
+    {
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with tactile switches and durable build.",
+      "price": 59.99,
+      "unitsSold": 200
+    },
+    {
+      "name": "Noise Cancelling Headphones",
+      "description": "High-quality over-ear headphones with active noise cancellation.",
+      "price": 129.99,
+      "unitsSold": 120
+    },
+    {
+      "name": "4K Monitor",
+      "description": "27-inch 4K UHD monitor with vivid colors and ultra-thin bezels.",
+      "price": 349.99,
+      "unitsSold": 80
+    },
+    {
+      "name": "Portable SSD 1TB",
+      "description": "Fast and reliable external solid-state drive for data storage.",
+      "price": 99.99,
+      "unitsSold": 250
+    },
+    {
+      "name": "Smartphone Stand",
+      "description": "Adjustable aluminum stand for phones and tablets.",
+      "price": 14.99,
+      "unitsSold": 500
+    },
+    {
+      "name": "Webcam 1080p",
+      "description": "Full HD webcam with built-in microphone and wide-angle lens.",
+      "price": 39.99,
+      "unitsSold": 180
+    },
+    {
+      "name": "Bluetooth Speaker",
+      "description": "Compact portable speaker with deep bass and 10-hour battery life.",
+      "price": 45.99,
+      "unitsSold": 270
+    },
+    {
+      "name": "Gaming Chair",
+      "description": "Ergonomic gaming chair with adjustable armrests and lumbar support.",
+      "price": 189.99,
+      "unitsSold": 60
+    },
+    {
+      "name": "Logitech XM",
+      "description": "A smooth and responsive wireless mouse with ergonomic design.",
+      "price": 50.00,
+      "unitsSold": 500
+    }
+  ],
+  "isSuccess": true,
+  "error": null
+}

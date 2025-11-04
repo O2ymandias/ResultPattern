@@ -1,0 +1,40 @@
+@BaseUrl = http://localhost:5095
+
+// Get All Products
+GET {{BaseUrl}}/api/Products?pageIndex=1&pageSize=5
+Accept: application/json
+
+###
+
+// Get Product By Id
+GET {{BaseUrl}}/api/Products/22
+Accept: application/json
+
+###
+
+// Create Product
+POST {{BaseUrl}}/api/Products
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Logitech Wireless Mouse",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 1,
+  "unitsSold": 350
+}
+
+###
+
+// Update Product
+PUT {{BaseUrl}}/api/Products
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 10,
+  "name": "Logitech XM",
+  "description": "A smooth and responsive wireless mouse with ergonomic design.",
+  "price": 50,
+  "unitsSold": 500
+}
