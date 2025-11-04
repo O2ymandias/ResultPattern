@@ -9,10 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a74fcd01-199c-44a2-bbc6-cf041d17b160" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Shared/PagedData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultPattern.Api/Extensions/ResultExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Api/Extensions/ResultExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultPattern.Core/Results/PagedResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Core/Results/PagedResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResultPattern.Api/Responses/ApiResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Api/Responses/ApiResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResultPattern.Api/Responses/PagedApiResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Api/Responses/PagedApiResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResultPattern.Infrastructure/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Infrastructure/UnitOfWork.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ResultPattern.Service/Implementations/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Service/Implementations/ProductService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +197,7 @@
       <workItem from="1762073843755" duration="4580000" />
       <workItem from="1762079899268" duration="1711000" />
       <workItem from="1762155296124" duration="12496000" />
-      <workItem from="1762241393955" duration="12898000" />
+      <workItem from="1762241393955" duration="14894000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial implementation of product management features and related configurations">
       <option name="closed" value="true" />
@@ -207,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762253961868</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor PagedResult to use PaginationMetadata and update related service logic">
+      <option name="closed" value="true" />
+      <created>1762256968886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762256968886</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +226,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add initial implementation of product management features and related configurations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial implementation of product management features and related configurations" />
+    <MESSAGE value="Refactor PagedResult to use PaginationMetadata and update related service logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor PagedResult to use PaginationMetadata and update related service logic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -16,17 +16,24 @@ public class ProductService(IUnitOfWork unitOfWork) : IProductService
         var validationResult = paginationParams.Validate();
         if (!validationResult.IsSuccess) return Result<PagedResult<ProductResponse>>.Failure(validationResult.Error!);
 
-        var productRepo = unitOfWork.Repository<Product>();
+
         var specs = new ProductsSpecifications(paginationParams.Page, paginationParams.PageSize);
-        var products = await productRepo.GetAllAsync(specs);
+        var products = await unitOfWork
+            .Repository<Product>()
+            .GetAllAsync(specs);
+
         IReadOnlyList<ProductResponse> items =
         [
             .. products.Select(product =>
                 new ProductResponse(product.Name, product.Description, product.Price, product.UnitsSold))
         ];
-        var count = await productRepo.CountAsync();
+
+        var count = await unitOfWork.Repository<Product>().CountAsync();
+
         var pagination = new PaginationMetadata(paginationParams.Page, paginationParams.PageSize, count);
+
         var pagedResult = new PagedResult<ProductResponse>(items, pagination);
+
         return Result<PagedResult<ProductResponse>>.Success(pagedResult);
     }
 
@@ -44,12 +51,13 @@ public class ProductService(IUnitOfWork unitOfWork) : IProductService
 
     public async Task<Result> CreateProductAsync(CreateProductRequest requestDate)
     {
-        var productRepo = unitOfWork.Repository<Product>();
-
         if (requestDate.Price <= 0)
             return Result.Failure(ProductErrors.InvalidPrice(requestDate.Price));
 
-        var alreadyExistedName = await productRepo.GetAsync(new ProductsSpecifications(requestDate.Name));
+        var alreadyExistedName = await unitOfWork
+            .Repository<Product>()
+            .GetAsync(new ProductsSpecifications(requestDate.Name));
+
         if (alreadyExistedName is not null)
             return Result.Failure(ProductErrors.AlreadyExists(requestDate.Name));
 
@@ -61,7 +69,7 @@ public class ProductService(IUnitOfWork unitOfWork) : IProductService
             UnitsSold = requestDate.UnitsSold
         };
 
-        productRepo.Add(newProduct);
+        unitOfWork.Repository<Product>().Add(newProduct);
         var rowsAffected = await unitOfWork.SaveChangesAsync();
 
         return rowsAffected > 0
@@ -94,13 +102,14 @@ public class ProductService(IUnitOfWork unitOfWork) : IProductService
 
     public async Task<Result> DeleteProductAsync(int id)
     {
-        var productRepo = unitOfWork.Repository<Product>();
-
-        var product = await productRepo.GetAsync(new ProductsSpecifications(id));
+        var product = await unitOfWork
+            .Repository<Product>()
+            .GetAsync(new ProductsSpecifications(id));
         if (product is null) return Result.Failure(ProductErrors.NotFound(id));
 
-        productRepo.Delete(product);
+        unitOfWork.Repository<Product>().Delete(product);
         var rowsAffected = await unitOfWork.SaveChangesAsync();
+
         return rowsAffected > 0
             ? Result.Success()
             : Result.Failure(ProductErrors.DeletionFailed());

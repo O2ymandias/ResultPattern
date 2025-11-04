@@ -4,7 +4,7 @@ namespace ResultPattern.Api.Responses;
 
 public class ApiResponse<T>
 {
-    private ApiResponse(bool success, T? data, Error? error, DateTime timestamp)
+    protected ApiResponse(bool success, T? data, Error? error, DateTime timestamp)
     {
         Success = success;
         Data = data;
