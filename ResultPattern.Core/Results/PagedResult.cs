@@ -2,8 +2,8 @@
 
 namespace ResultPattern.Core.Results;
 
-public class PagedResult<T>(IReadOnlyList<T> data, int page, int pagesSize, int totalCount)
-    : PaginationMetadata(page, pagesSize, totalCount)
+public class PagedResult<T>(IReadOnlyList<T> items, PaginationMetadata pagination)
 {
-    public IReadOnlyList<T> Data { get; set; } = data;
+    public IReadOnlyList<T> Items { get; set; } = items;
+    public PaginationMetadata Pagination { get; set; } = pagination;
 }

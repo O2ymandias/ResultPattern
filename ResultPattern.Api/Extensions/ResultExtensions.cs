@@ -2,7 +2,6 @@
 using ResultPattern.Api.Responses;
 using ResultPattern.Core.Errors;
 using ResultPattern.Core.Results;
-using ResultPattern.Core.Shared;
 
 namespace ResultPattern.Api.Extensions;
 
@@ -50,8 +49,7 @@ public static class ResultExtensions
         if (result.IsSuccess)
         {
             var pagedResult = result.Value!;
-            return new OkObjectResult(PagedApiResponse<T>.SuccessResponse(pagedResult.Data,
-                new PaginationMetadata(pagedResult.Page, pagedResult.PageSize, pagedResult.TotalCount)));
+            return new OkObjectResult(PagedApiResponse<T>.SuccessResponse(pagedResult.Items, pagedResult.Pagination));
         }
 
         return result.Error!.ErrorType switch

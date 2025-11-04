@@ -25,8 +25,8 @@ public class ProductService(IUnitOfWork unitOfWork) : IProductService
                 new ProductResponse(product.Name, product.Description, product.Price, product.UnitsSold))
         ];
         var count = await productRepo.CountAsync();
-        var pagedResult =
-            new PagedResult<ProductResponse>(items, paginationParams.Page, paginationParams.PageSize, count);
+        var pagination = new PaginationMetadata(paginationParams.Page, paginationParams.PageSize, count);
+        var pagedResult = new PagedResult<ProductResponse>(items, pagination);
         return Result<PagedResult<ProductResponse>>.Success(pagedResult);
     }
 

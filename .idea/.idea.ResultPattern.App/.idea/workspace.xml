@@ -9,44 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a74fcd01-199c-44a2-bbc6-cf041d17b160" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Api/Extensions/AppExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Api/Extensions/ResultExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Api/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Api/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Api/Responses/ApiResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Api/Responses/PagedApiResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Api/ResultPattern.Api.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Api/ResultPattern.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Api/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Api/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.App.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Errors/Error.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Errors/PaginationErrors.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Errors/ProductErrors.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Interfaces/IRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Interfaces/ISpecifications.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Interfaces/IUnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Models/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Results/PagedResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Results/Result.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Shared/PaginationMetadata.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Shared/PaginationParams.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Specifications/ProductSpecifications/ProductsSpecifications.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Specifications/Specifications.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Infrastructure/Data/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Infrastructure/Data/Config/ProductConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Infrastructure/Data/DatabaseInitializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Infrastructure/Data/SeedData/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Infrastructure/Repository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Infrastructure/SpecificationsEvaluator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Infrastructure/UnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Service/Dto/ProductDto/CreateProductRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Service/Dto/ProductDto/ProductResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Service/Dto/ProductDto/UpdateProductRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Service/Implementations/ProductService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultPattern.Service/Interfaces/IProductService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResultPattern.Core/Shared/PagedData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResultPattern.Api/Extensions/ResultExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Api/Extensions/ResultExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResultPattern.Core/Results/PagedResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Core/Results/PagedResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResultPattern.Service/Implementations/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Service/Implementations/ProductService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "O2ymandias"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/O2ymandias/ResultPattern.App.git",
+    "accountId": "d3bdc136-ce98-4b4d-8bd6-3e29524efe37"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ResultPattern.Api/Extensions/AppExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Api/Extensions/ResultExtensions.cs" root0="FORCE_HIGHLIGHTING" />
@@ -80,6 +59,7 @@
     <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Results/PagedResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Results/Result.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Shared/PagedData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Shared/PaginationMetadata.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Specifications/ProductSpecifications/ProductsSpecifications.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Specifications/Specifications.cs" root0="FORCE_HIGHLIGHTING" />
@@ -217,8 +197,17 @@
       <workItem from="1762073843755" duration="4580000" />
       <workItem from="1762079899268" duration="1711000" />
       <workItem from="1762155296124" duration="12496000" />
-      <workItem from="1762241393955" duration="10212000" />
+      <workItem from="1762241393955" duration="12898000" />
     </task>
+    <task id="LOCAL-00001" summary="Add initial implementation of product management features and related configurations">
+      <option name="closed" value="true" />
+      <created>1762253961868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762253961868</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +217,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add initial implementation of product management features and related configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial implementation of product management features and related configurations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
