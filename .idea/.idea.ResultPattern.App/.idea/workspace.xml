@@ -9,11 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a74fcd01-199c-44a2-bbc6-cf041d17b160" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/dataSources/6d80a358-ec53-4b9a-9813-0cabf9260b66.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/dataSources/6d80a358-ec53-4b9a-9813-0cabf9260b66.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/httpRequests/2025-10-31T163046.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/httpRequests/2025-10-31T163047.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultPattern.Api/Responses/ApiResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Api/Responses/ApiResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultPattern.Api/Responses/PagedApiResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Api/Responses/PagedApiResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultPattern.Infrastructure/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Infrastructure/UnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultPattern.Service/Implementations/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Service/Implementations/ProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResultPattern.Api/ResultPattern.http" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Api/ResultPattern.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "O2ymandias"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;O2ymandias&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/O2ymandias/ResultPattern.App.git",
-    "accountId": "d3bdc136-ce98-4b4d-8bd6-3e29524efe37"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/O2ymandias/ResultPattern.App.git&quot;,
+    &quot;accountId&quot;: &quot;d3bdc136-ce98-4b4d-8bd6-3e29524efe37&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ResultPattern.Api/Extensions/AppExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Api/Extensions/ResultExtensions.cs" root0="FORCE_HIGHLIGHTING" />
@@ -92,10 +93,12 @@
     "HTTP Request.ResultPattern | #3 (1).executor": "Run",
     "HTTP Request.ResultPattern | #3.executor": "Run",
     "HTTP Request.ResultPattern | #4.executor": "Run",
+    "HTTP Request.ResultPattern | #5.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -137,14 +140,13 @@
     <configuration name="ResultPattern | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/ResultPattern/ResultPattern.http" executionIdentifier="#3" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="ResultPattern | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/ResultPattern/ResultPattern.http" executionIdentifier="#4" index="4" runType="Run single request">
+    <configuration name="ResultPattern | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/ResultPattern.Api/ResultPattern.http" executionIdentifier="#5" index="5" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="ResultPattern: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ResultPattern.Api/ResultPattern.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net9.0" />
       <option name="LAUNCH_PROFILE_NAME" value="http" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
@@ -152,6 +154,7 @@
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -160,7 +163,6 @@
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ResultPattern.Api/ResultPattern.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net9.0" />
       <option name="LAUNCH_PROFILE_NAME" value="https" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
@@ -168,17 +170,18 @@
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.ResultPattern | #5" />
         <item itemvalue="HTTP Request.ResultPattern | #3 (1)" />
         <item itemvalue="HTTP Request.ResultPattern | #2 (1)" />
         <item itemvalue="HTTP Request.ResultPattern | #1" />
         <item itemvalue="HTTP Request.ResultPattern | #3" />
-        <item itemvalue="HTTP Request.ResultPattern | #4" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +201,7 @@
       <workItem from="1762079899268" duration="1711000" />
       <workItem from="1762155296124" duration="12496000" />
       <workItem from="1762241393955" duration="14894000" />
+      <workItem from="1763283277792" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial implementation of product management features and related configurations">
       <option name="closed" value="true" />

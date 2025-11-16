@@ -38,3 +38,8 @@ Accept: application/json
   "price": 50,
   "unitsSold": 500
 }
+
+###
+
+// Delete Product
+DELETE {{BaseUrl}}/api/Products/27
