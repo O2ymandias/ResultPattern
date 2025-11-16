@@ -9,12 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a74fcd01-199c-44a2-bbc6-cf041d17b160" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/dataSources/6d80a358-ec53-4b9a-9813-0cabf9260b66.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/dataSources/6d80a358-ec53-4b9a-9813-0cabf9260b66.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/httpRequests/2025-10-31T163046.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/httpRequests/2025-10-31T163047.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultPattern.Api/ResultPattern.http" beforeDir="false" afterPath="$PROJECT_DIR$/ResultPattern.Api/ResultPattern.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +42,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.idea/.idea.ResultPattern.App/.idea/httpRequests/2025-11-16T105545.200.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Api/Extensions/AppExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Api/Extensions/ResultExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Api/Responses/ApiResponse.cs" root0="FORCE_HIGHLIGHTING" />
@@ -60,7 +56,6 @@
     <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Results/PagedResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Results/Result.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Shared/PagedData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Shared/PaginationMetadata.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Specifications/ProductSpecifications/ProductsSpecifications.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Core/Specifications/Specifications.cs" root0="FORCE_HIGHLIGHTING" />
@@ -70,9 +65,6 @@
     <setting file="file://$PROJECT_DIR$/ResultPattern.Infrastructure/Data/SeedData/products.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Infrastructure/Repository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ResultPattern.Infrastructure/UnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/27c4858128168eda568c1334d70d5241efb9461e2a3209258a04deee5d9c367/JsonSerializer.Read.String.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6d894e53c1d0e27ee0e666475a55d3c2db944f4221f0b6de4ebda38ff1fa/IActionResult.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f43916548475f9e9d76f1fa98dff93c8bd39d6a926874ffee93543c2f6d671/ObjectResult.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -120,7 +112,7 @@
               <entry key="ResultPattern | #2 (1)" value="STOPPED" />
               <entry key="ResultPattern | #3" value="STOPPED" />
               <entry key="ResultPattern | #3 (1)" value="STOPPED" />
-              <entry key="ResultPattern | #4" value="STOPPED" />
+              <entry key="ResultPattern | #5" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -201,7 +193,7 @@
       <workItem from="1762079899268" duration="1711000" />
       <workItem from="1762155296124" duration="12496000" />
       <workItem from="1762241393955" duration="14894000" />
-      <workItem from="1763283277792" duration="299000" />
+      <workItem from="1763283277792" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial implementation of product management features and related configurations">
       <option name="closed" value="true" />
@@ -219,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762256968886</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update database model version and refine HTTP request logs for product management">
+      <option name="closed" value="true" />
+      <created>1763283625562</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763283625562</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +231,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add initial implementation of product management features and related configurations" />
     <MESSAGE value="Refactor PagedResult to use PaginationMetadata and update related service logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor PagedResult to use PaginationMetadata and update related service logic" />
+    <MESSAGE value="Update database model version and refine HTTP request logs for product management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update database model version and refine HTTP request logs for product management" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
